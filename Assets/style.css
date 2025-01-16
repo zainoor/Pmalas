@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:wght@400;500&display=swap");
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    width: 99%;
+    
+    font-size: 16px;
+    font-family: "Poppins",sans-serif;
+    background-color: pink;
+ }
+ 
+ .header {
+    padding: 10px;
+    background-color: pink;
+ }
+.header .nav {
+    width: 80%;
+    margin: auto;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+ }
+
+.header .nav .logo {
+    height: 42px;
+    background-color: purple;
+    padding: 15px 20px;
+    
+    border-radius: 10px ;
+}
+.header .nav .logo:hover {
+    background-color: white;
+}
+
+.link {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.link a {
+    background-color: purple;
+    text-decoration: none;
+    color: white;
+
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.link a:hover {
+    background-color: white;
+    color: purple;
+}
+
+.button a{
+    background-color: purple;
+    padding: 10px 25px;
+    border-radius: 4px;
+
+    text-decoration: none;
+    color: white;
+}
+
+.button a:hover {
+    background-color: white;
+    color: purple;
+}
+
+.main {
+    margin: auto;
+    background-color: pink;
+}
+
+.main .pat {
+    height: 400px;
+    width: 75%;
+    margin: auto;
+
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    
+    padding: 75px;
+}
+
+.main .pat .kiri {
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    
+    flex-direction: column;
+}
+
+.main .pat .kiri h1 {
+    background-color: pink;
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.main .pat .kiri span {
+    font-size: 50px;
+    color: white;
+}
+
+.main .pat .kiri p {
+    margin-bottom: 50px;
+    padding: 10px;
+    background-color: purple;
+
+    color: white;
+    border-radius: 10px
+}
+
+.main .pat .kanan {
+    width: 50%;
+    background-repeat: no-repeat;
+    display: flex;
+    
+    justify-content: center;
+}
+
+.main .pat img {
+    width: 400px;
+}
+
+.main .pat .bungkusan-tombol {
+    display: flex;
+}
+
+.bungkusan-tombol .tombol-kiri {
+    background-color: purple;
+    text-decoration: none;
+    padding: 10px;
+    
+    border-radius: 5px;
+    border: solid pink;
+    color:white;
+    
+    margin-right: 10px;
+}
+
+.bungkusan-tombol .tombol-kanan {
+    text-decoration: none;
+    padding: 10px;
+    background-color: rgb(250, 238, 238);
+
+    color: purple;
+    border: solid 1px purple;
+    border-radius: 5px;
+}
+.bungkusan-tombol a:hover{
+    color: purple;
+    background-color: white;
+    border: solid pink;
+}
+
+.main .wave {
+    margin-bottom: -10px;
+    margin-right: -11px;
+    width: auto;
+    
+    background-color: white;
+}
+.main .quotes {
+    margin-right: -11px;
+    width: auto;
+    display: flex;
+    
+    background-color: white;
+    padding: 30px;
+}
+
+.main .quotes .quotes-kiri{
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+
+  
+    border-radius: 10px ;
+    background-color: purple;
+    color: white;
+}
+
+.main .quotes .quotes-kiri h1{
+    font-size: 30px;
+}
+
+.main .quotes .quotes-kiri p{
+    font-size: 17px;
+}
+
+.main .quotes .quotes-kanan {
+    width: 50% ;
+    display: flex;
+    justify-content: center;
+}
+
+.main .quotes img {
+    width: 250px;
+}
+
+.wavy {
+    background-color:pink;
+    margin-right: -5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    text-align: center;
+    font-size: small;
+    color: purple;
+    padding: 10px;
+}
+
+.footer .sosmed i{
+    padding: 10px;
+    margin-left: 25px;
+    background-color: purple;
+
+    color: white;
+    font-size: 45px;
+    border-radius: 10px;
+}
+
+.footer .sosmed i:hover{
+    background-color: white;
+    color: purple;
+}
+
+
+.footer .to-top img {
+    height: 40px;
+    background-color:purple;
+    padding: 20px 25px;
+    
+    border-radius: 10px ;
+}
+
+.footer .to-top img:hover {
+    background-color: white;
+}
